@@ -8,7 +8,7 @@
 - *Draw*: Take from the draw pile (not revealing to others)
 - *Replace*: Put a card in the discard, and replace it with a card from the draw.
 - *Target*: Point at a particular card
-- *Disabled*: When a card is disabled, it should be turned 90 degrees
+- *Disabled*: When a card is disabled, it should be turned 90 degrees.
 - *Death*:  When a card in play "dies", it gets discarded and does *not* get replaced.
 
 ### SETUP
@@ -26,8 +26,8 @@ Players take turns.  On each turn, the player takes $1.  Then, they choose exact
 - Pay $1 to swap out one of your *non-disabled* cards, drawing a new card from the deck
 - Pay $7 to target an enemy card to coup.  That card is discarded
 - Draw 2 cards.  If either was a heart, un-disable a disabled card.
-- Choose the active ability of some card, and a number of times to use it.
-At any given time, a player may choose relevant passive ability and use it some number of times, as well.
+- Announce a card, and a number of times to use its activity ability.
+At any given time, a player may choose a relevant passive ability and use it some number of times, as well.
 In both cases, the number of times an ability is used should be declared ahead of time.
 You cannot use the same passive ability multiple times in a row.
 
@@ -47,17 +47,17 @@ When a player loses their last card, they lose.  Last player standing wins.
 
 - (2)  **Disciple**
 
-  Passive: Immediately after playing any active ability, call this to use that ability again.
+  Passive: Immediately after playing any active ability, pay $1 to use that ability again.
 
 - (3)  **Martyr**
 
-  Passive (non-bluffable): When assassinated or couped, reveal and discard this card.  Draw 2 cards.
+  Passive (non-bluffable): If dead, reveal and discard this card.  If it died from coup, draw 1 card, otherwise draw 2 cards.
 
 - (4)  **Swindler**
 
   Active:  Choose an active ability that was played since your last turn, and play it.
 
-  Passive (non-bluffable): If you are caught on a bluff, pay $5
+  Passive (non-bluffable): If you are caught on a bluff, you may reveal this as the discard. The challenger gets +$1 instead of $5.
 
 - (5)  **Apothecary**
 
@@ -69,13 +69,13 @@ When a player loses their last card, they lose.  Last player standing wins.
 
   Active: Draw 3 cards.  You may choose one to replace one of your cards, and discard the rest.
 
-  Passive: If you have 3 cultists in play, reveal them.  You win.
+  Passive (non-bluffable): Reveal 3 cultists from your hand.  You win.
 
 - (7)  **Baron**
 
   Active: If a non-baron card's *active* ability was used to gain $X the previous turn, gain $X+1
 
-  Passive: Pay $12.  If you have more money than anyone else, you win.
+  Passive (non-bluffable): Pay $12.  If you have more money than anyone else, you win.
 
 - (8)  **Priest**
 
@@ -87,7 +87,8 @@ When a player loses their last card, they lose.  Last player standing wins.
 
   Active: Target a card.  Replace it with a card
 
-  Passive: Whenever a card is targeted, you may draw and reveal a card.  If it is a club or spade, ignore the effect.
+  Passive: Whenever a card is targeted, you may draw and reveal a card.
+           If it is a club or spade, ignore the effect.
 
 - (10) **Gravedigger**
 
@@ -113,3 +114,7 @@ When a player loses their last card, they lose.  Last player standing wins.
 - (K)  **Duke**
 
   Active: Take $2
+
+## Clarifications
+
+  - Apothecary counters martyr, since it disables the martyr's ability before a kill.
