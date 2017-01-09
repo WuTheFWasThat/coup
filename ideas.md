@@ -12,3 +12,6 @@ Tank:
 - Pay $4.  Either
   - Choose 2 targets.  For each, turn a card - if club or spades, dies.
   - Choose 4 targets.  For each, turn a card - if club, dies.
+
+Sheriff:
+- Look at one of your opponents' cards.
