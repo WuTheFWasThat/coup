@@ -3,10 +3,11 @@
 Princess (alt):
 - Can set aside one of your own cards, instead of from the draw
 
-Disciple (alt):
-  (active) Either:
-    - Look at the top 2 cards of the deck, and choose one to become your disciple's teacher. (teacher goes face up next to disciple)
-    - Use the ability of the teacher
+(2)  **Disciple** (alt):
+
+  Active: Either
+  - Look at the top 2 cards of the deck, and choose one to become your disciple's teacher. (teacher goes face up next to claimed Disciple)
+  - Use the ability of the teacher
 
 Tank:
 - Pay $4.  Either
