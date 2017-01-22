@@ -21,7 +21,8 @@ If the draw pile is ever empty, shuffle the discard pile to make a new draw pile
 
 ### GAMEPLAY
 
-Players take turns.  On each turn, the player takes $1.  Then, they choose exactly one of the following:
+Players take turns.  On each turn, the player takes $1 income.
+Then, they choose exactly one of the following:
 - Take $1 additional money
 - Pay $1 to swap out one of your *non-disabled* cards, drawing a new card from the deck
 - Pay $7 to target an enemy card to coup.  That card is discarded
@@ -34,7 +35,7 @@ You cannot use the same passive ability multiple times in a row.
 Immediately after any (active or passive) ability is used, a player may claim it is a bluff.
 Then, the original player may reveal N *non-disabled* cards with that ability, where N is the
 number of times the ability was used.
-- If they successfully do so, they replace those N cards, and the challenger must lose a card.
+- If they successfully do so, they discard and redraw for those N cards, and the challenger must lose a card.
 - If they do not do so, they choose a card to lose, and the challenger gets $5.
 
 When a player loses their last card, they lose.  Last player standing wins.
@@ -67,7 +68,7 @@ When a player loses their last card, they lose.  Last player standing wins.
 
 - (6)  **Cultist**
 
-  Active: Draw 3 cards.  You may choose one to replace one of your cards, and discard the rest.
+  Active: Draw 3 cards.  You must choose one to replace one of your cards, and discard the rest.
 
   Passive (non-bluffable): Reveal 3 cultists from your hand.  You win.
 
@@ -81,19 +82,20 @@ When a player loses their last card, they lose.  Last player standing wins.
 
   Active: Take $1 from any other player
 
-  Passive: If you incorrectly call out a bluff, pay $5 instead of losing a card.
+  Passive: If you incorrectly call out a bluff, pay $3 instead of losing a card.
+  If you correctly call out a bluff, take $3 from the other player.
 
 - (9)  **Spy**
 
-  Active: Target a card.  Replace it with a card
+  Active: Target a card.  The owner must draw a card to replace it
 
-  Passive: Whenever a card is targeted, you may draw and reveal a card.
-           If it is a club or spade, ignore the effect.
+  Passive: Whenever a card is targeted, you may name a suit and then draw and reveal a card.
+           If the drawn card is of that suit, ignore the effect.
 
 - (10) **Gravedigger**
 
   Active: Choose any card from the discard pile (without revealing to opponents).
-          Then either, pay $0 and put it on top the deck, pay $5 and swap it for one of your existing cards, or pay $10 and add it to
+          Then either, pay $0 and put it on top the deck, pay $5 and swap it for one of your existing cards, or pay $10 and add it to your hand.
 
 - (J)  **Gambler**
 
